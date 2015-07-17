@@ -2,7 +2,7 @@
 	"name": "eggbe/laravel-delegapi-server",
 	"version": "1.0.0",
 	"type": "library",
-	"keywords": ["laravel", "rest", "api", "client", "server"],
+	"keywords": ["laravel", "rest", "api", "server", "client-server"],
 	"description": "Laravel oriented server part of the library to construct a client-server architecture.",
 	"license": "MIT",
 	"authors": [
