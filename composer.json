@@ -1,6 +1,6 @@
 {
 	"name": "eggbe/laravel-delegapi-server",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"type": "library",
 	"keywords": ["laravel", "rest", "api", "server", "client-server"],
 	"description": "Laravel oriented server part of the library to construct a client-server architecture.",
@@ -13,12 +13,12 @@
 	],
 	"require": {
 		"php": ">=5.5.0",
-		"illuminate/support": "~4.0",
+		"illuminate/support": "~5.0",
 		"eggbe/helpers": "dev-master",
 		"eggbe/delegapi-server": "dev-master"
 	},
 	"autoload": {
-		"psr-0": {
+		"psr-4": {
 			"Eggbe\\LaravelDelegapiServer": "src/"
 		}
 	}
