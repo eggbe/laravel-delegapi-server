@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Eggbe\\LaravelDelegapiServer": "src/"
+			"Eggbe\\LaravelDelegapiServer\\": "src/"
 		}
 	}
 }
