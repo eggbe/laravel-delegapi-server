@@ -19,7 +19,7 @@ class LaravelDelegapiServerServiceProvider extends ServiceProvider {
 	public function register() {
 		$this->mergeConfigFrom(dirname(__DIR__) . '/config/delegapi-server.php', 'eggbe.delegapi-server');
 		$this->app->singleton('DelegapiServer', function () {
-			return new LaravelDelegapiServer(Config::get('delegapi-server'));
+			return new LaravelDelegapiServer(Config::get('eggbe.delegapi-server'));
 		});
 	}
 
