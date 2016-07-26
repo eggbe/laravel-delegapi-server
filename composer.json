@@ -16,7 +16,6 @@
 		"illuminate/support": "~5.0",
 		"eggbe/helpers": "dev-master",
 		"eggbe/delegapi-server": "dev-master",
-		"eggbe/laravel-hash-store": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
