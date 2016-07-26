@@ -5,13 +5,13 @@ return [
 	'listen' => [
 
 		/**
-		 * Binding a simple callback function to the action.
+		 * Binding the simple callback function to the action.
 		 */
 		Server::ON_AUTHORIZE => function(){},
 
 		/**
-		 * Binding a special listener class ti the action.
-		 * The listener class have to extend Eggbe\DelegapiServer\Abstracts\AListener.
+		 * Binding the special listener class to the action.
+		 * The listener have to extend Eggbe\DelegapiServer\Abstracts\AListener.
 		 */
 		Server::ON_EXECUTE => 'ActionListener',
 	],
