@@ -15,7 +15,7 @@
 		"php": ">=5.5.0",
 		"illuminate/support": "~5.0",
 		"eggbe/helpers": "dev-master",
-		"eggbe/delegapi-server": "dev-master",
+		"eggbe/delegapi-server": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
