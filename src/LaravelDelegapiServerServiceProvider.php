@@ -28,7 +28,7 @@ class LaravelDelegapiServerServiceProvider extends ServiceProvider {
 	 */
 	public final function boot() {
 		$this->publishes([
-			dirname(__DIR__) . '/config/delegapi-server.php' => config_path('delegapi-server.php'),
+			dirname(__DIR__) . '/config/delegapi-server.php' => config_path('eggbe/delegapi-server.php'),
 		]);
 	}
 
