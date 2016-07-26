@@ -14,5 +14,6 @@ return [
 		 * The listener have to extend Eggbe\DelegapiServer\Abstracts\AListener.
 		 */
 		Server::ON_EXECUTE => 'ActionListener',
+
 	],
 ];
