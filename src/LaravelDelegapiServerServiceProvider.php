@@ -14,7 +14,6 @@ class LaravelDelegapiServerServiceProvider extends ServiceProvider {
 
 	/**
 	 * Register bindings in the container.
-	 * @return void
 	 */
 	public function register() {
 		$this->mergeConfigFrom(dirname(__DIR__) . '/config/delegapi-server.php', 'eggbe.delegapi-server');
