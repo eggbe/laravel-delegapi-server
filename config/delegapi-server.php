@@ -6,11 +6,11 @@ return [
 	/**
 	 * Binding the simple callback function to the action.
 	 */
-	Server::ON_AUTHORIZE => function(){},
+	Server::ON_TOKEN => function(){},
 
 	/**
 	 * Binding the special listener class to the action.
-	 * The listener have to extend Eggbe\DelegapiServer\Abstracts\AListener.
+	 * The listener have to extend \Eggbe\DelegapiServer\Abstracts\AListener.
 	 */
 	Server::ON_EXECUTE => 'ActionListener',
 
